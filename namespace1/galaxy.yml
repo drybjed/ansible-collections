@@ -1,0 +1,24 @@
+---
+
+namespace: "drybjed"
+name: "namespace1"
+version: "1.0.0"
+description: "First test collection to fix bug in ansible-lint"
+
+authors:
+  - "Maciej Delmanowski <drybjed@gmail.com>"
+
+repository: "https://github.com/drybjed/ansible-collections"
+documentation: "https://github.com/drybjed/ansible-collections"
+homepage: "https://drybjed.net/"
+issues: "https://github.com/drybjed/ansible-collections"
+
+readme: "README.md"
+
+license:
+  - "GPL-3.0-or-later"
+
+tags:
+  - "testing"
+
+dependencies: {}

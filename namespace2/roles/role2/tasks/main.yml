@@ -1,0 +1,5 @@
+---
+
+- name: Emit a debug message
+  ansible.builtin.debug:
+    msg: 'This is {{ ansible_role_name }} role'

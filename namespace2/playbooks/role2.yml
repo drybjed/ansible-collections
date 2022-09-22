@@ -1,0 +1,10 @@
+---
+
+- name: Test playbook
+  hosts: 'all'
+
+  tasks:
+
+    - name: Import second test role
+      ansible.builtin.import_role:
+        name: 'drybjed.namespace2.role2'

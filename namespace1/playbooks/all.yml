@@ -1,0 +1,7 @@
+---
+
+- name: Import first playbook
+  ansible.builtin.import_playbook: 'role1.yml'
+
+- name: Import second playbook
+  ansible.builtin.import_playbook: 'role2.yml'
